@@ -1,0 +1,169 @@
+.banner {
+    height: 800px;
+    color: #ffffff80;
+    font-size: 200px;
+    text-align: center;
+}
+
+.banner_img {
+   transform: translate(0, -250px);
+}
+
+.banner_buy {
+    position: relative;
+    bottom: 400px;
+
+    background-image: linear-gradient(#ffffffb6, #00000000);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.backimg {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.wrapper_lineup {
+    color: #ffffff;
+}
+
+.wrapper_lineup h2 {
+    border-bottom: solid #ffffff 2px;
+}
+
+.wrapper_lineup h2 {
+    margin-top: 50px;
+}
+
+.lineup {
+    margin-top: 25px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.car {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 200px;
+    overflow: hidden;
+}
+
+.car a {
+    margin-top: 50%;
+    padding: 5px 0px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.us {
+    padding: 30px 0;
+    margin-top: 100px;
+    color: #ffffff;
+}
+
+.us h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.us p {
+    font-size: 40px;
+    border-top: solid #ffffff 2px;
+}
+
+.us p span {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.us a {
+    float: right;
+    font-size: 20px;
+}
+
+.us, .history {
+    margin-top: 100px;
+}
+
+.blog {
+    margin-top: 100px;
+    color: #ffffff;
+}
+
+.blog .achievements {
+    border-right: solid #ffffff9a 2px;
+    border-bottom: solid #ffffff9a 2px;
+}
+
+.blog_block1 {
+    margin-top: 50px;
+    padding-left: 15px;
+    border-bottom: solid #ffffff9a 2px;
+    border-left: solid #ffffff9a 2px;
+}
+
+.blog_block2 {
+    margin-top: 50px;
+    padding-left: 15px;
+    border-right: solid #ffffff9a 2px;
+    border-bottom: solid #ffffff9a 2px;
+}
+
+.blog h2 {
+    font-size: 60px;
+}
+
+.blog p {
+    padding: 10px 0;
+    font-size: 25px;
+}
+
+.services {
+    margin-top: 100px;
+}
+
+.services h2{
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.services_content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-top: 15px;
+}
+
+.services_block {
+    font-size: 25px;
+    transition: all 0.08s ease-out;
+}
+
+.services_block:hover {
+    transform: scale(1.05);
+}
+
+.wrapper_form {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffffff;
+}
+
+form {
+    width: 240px;
+}
+
+form label {
+    float: left;
+}
+
+form input{
+    float: right;
+}

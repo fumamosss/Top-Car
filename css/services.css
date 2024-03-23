@@ -1,0 +1,44 @@
+.services {
+    margin-top: 100px;
+}
+
+.services h2{
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.services_content {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+
+.services_block {
+    font-size: 25px;
+    transition: all 0.08s ease-out;
+}
+
+.services_block:hover {
+    transform: scale(1.05);
+}
+
+.wrapper {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffffff;
+}
+
+form {
+    width: 240px;
+}
+
+form label {
+    float: left;
+}
+
+form input{
+    float: right;
+}
